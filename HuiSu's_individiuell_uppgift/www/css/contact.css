@@ -1,0 +1,48 @@
+.media-contact .media-body {
+  padding-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+  .media-contact {
+    display: none;
+  }
+  .cards-contact {
+    display: block;
+  }
+  .cards-contact .card {
+    width: 18rem;
+    margin: auto;
+  }
+  .address-info {
+    padding-left: 20px;
+  }
+  .Gmap {
+    width: 90vw;
+    height: 300px;
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .cards-contact {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .media-cotact {
+    display: block;
+  }
+  .cards-contact {
+    display: none;
+  }
+  .Gmap {
+    width: 90vw;
+    height: 400px;
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .Gmap {
+    width: 100%;
+    height: 400px;
+    background: yellow;
+  }
+}

@@ -1,0 +1,566 @@
+html,
+body {
+  overflow-x: hidden;
+  /* Prevent scroll on narrow devices */
+  max-width: 1200px;
+  margin: auto;
+}
+html header h1,
+body header h1 {
+  font-family: 'Chewy', cursive;
+  background-color: #95a0a9;
+  color: #ffffff;
+  font-size: 6vw;
+}
+html header form,
+body header form {
+  padding-right: 15px;
+}
+html header .hide,
+body header .hide {
+  display: none;
+}
+html main .sidebar-nav .card,
+body main .sidebar-nav .card {
+  border-style: none;
+}
+html main .sidebar-nav .card .card-header,
+body main .sidebar-nav .card .card-header {
+  border-style: none;
+}
+html main .navv,
+body main .navv {
+  background-color: #f8f9fa;
+  border-style: none;
+}
+html main .navv a,
+body main .navv a,
+html main .navv h6,
+body main .navv h6 {
+  color: rgba(0, 0, 0, 0.5);
+}
+html main .navv a:hover,
+body main .navv a:hover,
+html main .navv h6:hover,
+body main .navv h6:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+html main ul h5,
+body main ul h5 {
+  font-size: 1rem;
+}
+html main ul .collapse a,
+body main ul .collapse a {
+  white-space: inherit;
+}
+html main .nav-right,
+body main .nav-right {
+  padding-top: 10px;
+  width: 100%;
+}
+html main .nav-right h5,
+body main .nav-right h5 {
+  font-size: 20px;
+  color: #90181b;
+  margin-top: 20px;
+}
+html main .nav-right h2,
+body main .nav-right h2 {
+  padding-top: 10px;
+  color: #90181b;
+}
+html main .nav-right h3,
+body main .nav-right h3 {
+  background-color: #95a0a9;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+html main .nav-right .media-body a,
+body main .nav-right .media-body a {
+  color: #53b953;
+  font-size: 1rem;
+}
+html main .nav-right .book-Carousel,
+body main .nav-right .book-Carousel {
+  width: 100%;
+}
+html main .news-list .table-sm tbody a,
+body main .news-list .table-sm tbody a {
+  color: #53b953;
+  font-size: 1rem;
+}
+html main .news-list .table-sm tbody a:hover,
+body main .news-list .table-sm tbody a:hover {
+  text-decoration: underline;
+}
+html footer,
+body footer {
+  background-color: #95a0a9;
+  padding: 20px 20px 60px 20px;
+  color: white;
+}
+@media only screen and (max-width: 576px) {
+  header {
+    /*-------shopping cart btn-------*/
+  }
+  header .shopping-cart {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 20px;
+  }
+  main.index {
+    margin: auto;
+  }
+  main.index .rek-media {
+    display: none;
+  }
+  main.index .rek-card {
+    margin: 0 auto;
+  }
+  main.index .nav-right .rek-card .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main.index .nav-right .book-list .card {
+    margin-bottom: 20px;
+  }
+  main.index .nav-right .book-list .card .card-body {
+    padding: 10px;
+    position: absolute;
+    width: 40%;
+    right: 5px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-title {
+    font-size: 14px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-text {
+    height: 90px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-text p {
+    margin-bottom: 15px;
+  }
+  main.index .nav-right .book-list .card a.btn.btn-success {
+    font-size: 12px;
+    right: 10px;
+    position: absolute;
+  }
+  main.index .nav-right .book-list .card .card-img-top img {
+    margin: auto;
+    width: 60%;
+    max-height: 200px;
+    max-width: 155px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .rek-card {
+    display: none;
+  }
+  .rek-media {
+    display: block;
+  }
+  .card-img-top img {
+    padding-top: 10px;
+    max-width: 150px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shopping-cart {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .nav-right {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .nav-right .book-list .card {
+    width: 33%;
+    height: 560px;
+  }
+  .nav-right .book-list .card .card-img-top img {
+    padding-top: 10px;
+    height: 287px;
+  }
+  .nav-right .book-list .card .card-body .card-title {
+    height: 55px;
+  }
+  .nav-right .book-list .card .card-body .card-text {
+    height: 130px;
+  }
+  .nav-right .book-list .card .card-body a.btn.btn-success {
+    position: absolute;
+    right: 40px;
+  }
+}
+/* side nav */
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .side {
+    background-color: #f8f9fa ! important;
+  }
+  ul {
+    padding-bottom: 30px;
+  }
+  ul a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  ul a:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  ul li.list-group-item {
+    background-color: #f8f9fa ! important;
+  }
+  ul .dropdown-item {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  ul .nav-title {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    display: none;
+  }
+  .sidebar-offcanvas.active {
+    display: block;
+  }
+  .sidebar-offcanvas {
+    background-color: #f8f9fa;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 123455;
+  }
+  .btn-lg-display {
+    display: inline-block;
+  }
+  footer {
+    padding: 30px 15px 0 15px;
+  }
+}
+/*------pad and computer------*/
+/*--position: the right side of the side nav. --*/
+@media only screen and (min-width: 768px) {
+  main.index .book-carousel {
+    margin-top: 40px;
+  }
+  main.index .rek-card {
+    display: none;
+  }
+}
+/*----------desktop------------*/
+@media only screen and (min-width: 992px) {
+  body header .shopping-cart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  body header .logo {
+    margin: 0px;
+  }
+  body header .btn-lg-display {
+    display: none;
+  }
+  body main .row {
+    margin-right: -4.5px;
+    margin-left: 0px;
+  }
+  body main .nav-title {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main .list-group {
+    margin-left: -15px;
+  }
+  body main .list-group .list-grop-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  body main .nav-right .rek-media {
+    margin-top: 25px;
+  }
+  body main .nav-right .book-list .card {
+    margin-top: 10px;
+  }
+  body main .nav-right .book-list .card .card-img-top img {
+    height: 250px;
+    margin: 10px auto;
+  }
+  body main .nav-right .book-list .card .card-body {
+    font-size: 12px;
+  }
+  body main .nav-right .book-list .card .card-body .card-title {
+    font-size: 14px;
+  }
+  body .side {
+    background-color: #95a0a9;
+    color: #f8f9fa;
+  }
+  body .col-sm-push-3 {
+    padding-left: 30px;
+  }
+  body .col-sm-push-3 .card .card-img-top {
+    padding: 5px 5px 0px 5px;
+  }
+  body .col-sm-push-3 .card .card-body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  body .col-sm-push-3 .bot {
+    margin-left: -30px;
+    padding-right: 30px;
+  }
+  body .col-sm-push-3 .bot hr {
+    color: #95a0a9;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  body .col-sm-push-3 .bot .rek {
+    width: 100%;
+  }
+  body footer {
+    margin: 30px 15px;
+  }
+}
+body main.doctor .fa {
+  color: white;
+}
+body main.doctor .social-btn {
+  width: 80%;
+}
+body main.doctor .social-btn .btn-facebook {
+  background-color: #3B5998;
+  width: 40.86px;
+  margin-left: 16px;
+}
+body main.doctor .social-btn .btn-twitter {
+  background-color: #55ACEE;
+}
+body main.doctor .social-btn .btn-google {
+  background-color: #DD4B39;
+}
+body main.doctor .social-btn .btn-instagram {
+  background-color: #3F729B;
+}
+body main.doctor .nav-with-info {
+  background-color: #f8f9fa;
+}
+body main.doctor .nav-with-info a {
+  color: rgba(0, 0, 0, 0.5);
+}
+body main.doctor .name_positive {
+  text-align: right;
+}
+body main.doctor .recommend {
+  padding-bottom: 50px;
+}
+body main.doctor .recommend h6 {
+  color: #90181b;
+  margin-top: 20px;
+  font-size: 18px;
+}
+@media only screen and (min-width: 768px) {
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+    margin-top: 30px;
+  }
+  body main.doctor .nav-right .brf {
+    padding-top: 40px;
+  }
+  body main.doctor .nav-right .book-img {
+    padding-left: 30px;
+  }
+  body main.doctor .nav-right .book-img img {
+    width: 30vw;
+    max-height: 432.66px;
+    max-width: 307.19px;
+    margin: auto;
+  }
+  body main.doctor .nav-right .book-tx .btn-form .put-into-sc {
+    padding-top: 31px;
+  }
+  body main.doctor .nav-right .book-tx .btn-form .put-into-sc .btn-success {
+    font-size: 16px;
+  }
+  body main.doctor .nav-right .book-tx .social-btn .btn-social-icon {
+    margin-right: 10px;
+  }
+  body main.doctor .nav-with-info .nav-tabs {
+    padding-bottom: 0! important;
+  }
+  body main.doctor .nav-with-info .nav-tabs .nav-item {
+    font-size: 1.25rem;
+  }
+  body main.doctor .nav-with-info .nav-tabs .nav-item a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main.doctor .recommend .card {
+    width: 33%;
+  }
+  body main.doctor .recommend .card .card-body {
+    margin: auto;
+  }
+  body main.doctor .recommend .card .card-body .text-success {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  body main.doctor .book-list .book-tx {
+    padding-left: 30px;
+    padding-top: 80px;
+  }
+  body main.doctor .book-list .book-info {
+    font-size: 16px;
+  }
+  body main.doctor .brf {
+    font-size: 20px;
+  }
+  body main.doctor .nav-with-info {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body main.doctor {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+    margin-top: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-img {
+    padding-left: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-img img {
+    width: 30vw;
+  }
+  body main.doctor .nav-right .img-pris .book-tx {
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .brf {
+    font-size: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .pris {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form {
+    width: 70%;
+  }
+  body main.doctor .nav-right .nav-with-info {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body main.doctor .nav-right h2 {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .book-info .nav-with-info a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+  }
+  body main.doctor .nav-right .img-pris .book-img img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .brf {
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .pris {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form {
+    width: 100%;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form .form-group {
+    margin-bottom: 0;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form .put-into-sc {
+    padding-top: 33px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .social-btn {
+    padding-top: 15px;
+    width: 80%;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .social-btn .btn-social-icon {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  body main.doctor .nav-right .book-info .nav-with-info {
+    margin-top: 20px;
+  }
+}
+.media-contact .media-body {
+  padding-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+  .media-contact {
+    display: none;
+  }
+  .cards-contact {
+    display: block;
+  }
+  .cards-contact .card {
+    width: 18rem;
+    margin: auto;
+  }
+  .address-info {
+    padding-left: 20px;
+  }
+  .Gmap {
+    width: 90vw;
+    height: 300px;
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .cards-contact {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .media-cotact {
+    display: block;
+  }
+  .cards-contact {
+    display: none;
+  }
+  .Gmap {
+    width: 90vw;
+    height: 400px;
+    background: yellow;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .Gmap {
+    width: 100%;
+    height: 400px;
+    background: yellow;
+  }
+}

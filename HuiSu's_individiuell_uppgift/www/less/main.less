@@ -1,0 +1,109 @@
+
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+    max-width: 1200px;
+    margin:auto;
+    header {
+        h1{
+            font-family: 'Chewy', cursive;
+            background-color:@bg-grey;
+            color: #ffffff;
+            font-size: 6vw;
+            }
+        
+        form{
+            padding-right:15px;
+        }   
+        .hide{
+            display:none;
+        }
+    }
+    main{
+        .sidebar-nav{
+            .card{
+                border-style:none;
+                .card-header{
+                    border-style:none;
+                }
+            }
+            
+        }
+        
+        .navv{
+            background-color:@bg-sideNav;
+            border-style:none;
+            a, h6{
+                color:@tx-sideNav;
+                &:hover{
+                    color:@tx-hover;
+                }
+            }
+        }
+        ul{
+            h5{
+                font-size:1rem;
+            }
+
+            .collapse{
+                a {
+                    white-space: inherit;
+                }
+            }
+        }
+       
+        .nav-right{
+            padding-top:10px;
+            width:100%;
+            h5{
+                font-size:20px;
+                color:@lt-red;
+                margin-top:20px;
+            }
+            h2{
+                padding-top:10px;
+                color:@lt-red;
+            }   
+                h3{
+                    background-color:@bg-grey;
+                    color:white;
+                    padding: 10px;
+                    margin-top:20px;
+                    margin-bottom:10px;  
+                }
+                .media-body{
+                    a{
+                        color:rgb(83, 185, 83);
+                        font-size:1rem;
+                    }
+                }
+                .book-Carousel{
+                    width:100%;
+                }
+            }
+                
+                
+                .news-list{
+                   .table-sm{
+                       tbody{
+                        a{
+                            
+                            color:rgb(83, 185, 83);
+                            font-size:1rem;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                       }
+                   }
+                }
+    }
+    footer{
+        background-color: @bg-grey;
+        padding:20px 20px 60px 20px;
+   
+        
+        color:white;
+    }
+ 
+    }

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Extra infor added into <head> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- shopping cart -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--nav font-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- CSS for main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kontakt-Isaberg Förlag AB</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="shopping-cart">
+                <button class=" btn btn-success">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <h1 class="row logo p-3 mb-0">Isaberg förlag</h1>
+
+        <!-- beginning of navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0">
+            <a class="navbar-brand active" href="index.html">Startsida</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Om Isaberg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobba med oss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">F&#246;rfattare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manuskript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Press</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">S&#246;k</button>
+                </form>
+
+                <div class="btn-lg-display">
+                    <button class="btn btn-success offcanvas">
+                        <span class="show-hide-btn ">Visa Undermenyn</span>
+                        <span class="show-hide-btn hide">Dölj Undermenyn</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--main container  -->
+    <main class="contact">
+        <div class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left">
+                <!--left part, nav -->
+                <div class="col-12 col-lg-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div class="sidebar-nav">
+                        <ul class="nav flex-sm-column flex-column row d-flex align-content-start list-group">
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">HYHETER</a>
+                            </li>
+                            
+                            <li id="accordion">
+                                <div class="card ">
+                                    <div class="card-header navv" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Musik
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse navv" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Kring Musiken</a>
+                                            <a class="dropdown-item" href="#">Sångböcker</a>
+                                            <a class="dropdown-item" href="#">Sång och lek</a>
+                                            <a class="dropdown-item" href="#">CD</a>
+                                            <a class="dropdown-item" href="#">Kör / Musikal</a>
+                                            <a class="dropdown-item" href="#">Musikteori</a>
+                                            <a class="dropdown-item" href="#">Folkmusik</a>
+                                            <a class="dropdown-item" href="#">Suzuki</a>
+                                            <a class="dropdown-item" href="#">Musiktillbehör</a>
+                                            <div>
+                                                <div class="card-header navv" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed navv" data-toggle="collapse" data-parent="#accordion0" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Spelböker
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse navv" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-block">
+                                                        <a class="dropdown-item" href="#">Blockflöjt</a>
+                                                        <a class="dropdown-item" href="#">Gitarr</a>
+                                                        <a class="dropdown-item" href="#">Klaviatur</a>
+                                                        <a class="dropdown-item" href="#">Slagverk</a>
+                                                        <a class="dropdown-item" href="#">Stråk</a>
+                                                        <a class="dropdown-item" href="#">Träblås</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion2">
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading2">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                Instrument, rytminstrument
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse2" class="collapse navv" role="tabpanel" aria-labelledby="heading2">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Block, claves, kastanjetter</a>
+                                            <a class="dropdown-item" href="#">Blockfl&#246;jter, kazoo</a>
+                                            <a class="dropdown-item" href="#">Bj&#228;llror</a>
+                                            <a class="dropdown-item" href="#">Bongos, congas, djembes</a>
+                                            <a class="dropdown-item" href="#">Boomwhackers</a>
+                                            <a class="dropdown-item" href="#">Gitarrer</a>
+                                            <a class="dropdown-item" href="#">Klockspel, tonboxar, xylofoner</a>
+                                            <a class="dropdown-item" href="#">Klubbor</a>
+                                            <a class="dropdown-item" href="#">Maraccas, shakers</a>
+                                            <a class="dropdown-item" href="#">Ramtrummor, tamburiner</a>
+                                            <a class="dropdown-item" href="#">Rytmsatser</a>
+                                            <a class="dropdown-item" href="#">&#214;vriga instrument</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item navv">
+                                <a href="#">Svenska / Svenska som andraspr&#229;k</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">Engelska</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">NO / SO</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">S&#228;rskola</a>
+                            </li>
+                            <li id="accordion3"  >
+                                <div class="card navv">
+                                    <div class="card-header navv" id="heading3">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Facklitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse3" class="collapse navv" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Caféserien</a>
+                                            <a class="dropdown-item" href="#">Mat & Dryck</a>
+                                            <a class="dropdown-item" href="#">Motion/ Hälsa</a>
+                                            <a class="dropdown-item" href="#">Medicin</a>
+                                            <a class="dropdown-item" href="#">Hobbies</a>
+                                            <a class="dropdown-item" href="#">Sport</a>
+                                            <a class="dropdown-item" href="#">Reportage</a>
+                                            <a class="dropdown-item" href="#">lite av varje</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion4" >
+                                <div class="card">
+                                    <div class="card-header navv" id="heading4">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4" aria-expanded="true" >
+                                                Skönlitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse4" class="collapse navv" role="tabpanel" aria-labelledby="heading4">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Romaner</a>
+                                            <a class="dropdown-item" href="#">Deckare/Spänning</a>
+                                            <a class="dropdown-item" href="#">Humor</a>
+                                            <a class="dropdown-item" href="#">Kåserier</a>
+                                            <a class="dropdown-item" href="#">Biografler</a>
+                                            <a class="dropdown-item" href="#">Pocket</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion5" >
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading6">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion5" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                                Barn o ungdom
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse5" class="collapse navv" role="tabpanel" >
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">0-5 år</a>
+                                            <a class="dropdown-item" href="#">5-9 år</a>
+                                            <a class="dropdown-item" href="#">9-12 år</a>
+                                            <a class="dropdown-item" href="#">Ungdom</a>
+                                            <a class="dropdown-item" href="#">Lättläst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">Tryck din bok hos oss</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--on the right of nav-->
+
+                <div class="col-12 col-lg-9 nav-right">
+                    <div class="media-contact">
+                        <ul class="list-unstyled">
+                            <li class="media">
+                                <img class="mr-3" src="img/eva.jpeg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Eva Månsson</h5>
+                                    <p>VD, förläggare och tonårsmamma. Intressen - förutom jobbet förstås - är golf & idrott
+                                        i de flesta former, att läsa böcker, djur och att umgås med vänner & familj.</p>
+                                    <p>070 785 84 25</p>
+                                    <a href="mailto:eva@isaberg.nu ">eva@isaberg.nu </a>
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img class="mr-3" src="img/jan.jpeg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Jan Månsson</h5>
+                                    <p>Förläggare, layoutare, lagerarbetare, postbud och vaktmästare. Hammare och golfklubba
+                                        favoritverktyg på fritiden. Ivrig vasaloppsåkare.
+                                    </p>
+                                    <p>070 758 15 15</p>
+                                    <a href="mailto:jan@isaberg.nu">jan@isaberg.nu </a>
+                                </div>
+                            </li>
+                            <li class="media my-4">
+                                <img class="mr-3" src="img/renee.jpeg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Renée Schultz</h5>
+                                    <p>Administratör och innesäljare, som gärna tar en tur på motorcykeln eller skidorna. Aldrig
+                                        svarslös.
+                                    </p>
+                                    <p>0370 33 63 10</p>
+                                    <a href="mailto:renee@isaberg.nu">renee@isaberg.nu </a>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <img class="mr-3" src="img/dogs.jpeg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 mb-1">Sibel & Alf</h5>
+                                    <p>De här fyrbenta medarbetarna svarar inte på e-post eller telefon.</p>
+                                    <p>De sprider däremot väldigt mycken glädje, är förträffliga vakthundar och är mycket behjälpliga
+                                        med pappersförstörning och andra liknande arbetsuppgifter.</p>
+                                    <p>De ser också till att vi tvåbenta inte sitter stilla för länge och att vi får frisk luft
+                                        med jämna mellanrum.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cards-contact">
+                        <div class="card">
+                            <img class="card-img-top" src="img/eva.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="mt-0 mb-1">Eva Månsson</h5>
+                                <p>VD, förläggare och tonårsmamma. Intressen - förutom jobbet förstås - är golf & idrott i de
+                                    flesta former, att läsa böcker, djur och att umgås med vänner & familj.</p>
+                                <p>070 785 84 25</p>
+                                <a href="mailto:eva@isaberg.nu ">eva@isaberg.nu </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/jan.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="mt-0 mb-1">Jan Månsson</h5>
+                                <p>Förläggare, layoutare, lagerarbetare, postbud och vaktmästare. Hammare och golfklubba favoritverktyg
+                                    på fritiden. Ivrig vasaloppsåkare.
+                                </p>
+                                <p>070 758 15 15</p>
+                                <a href="mailto:jan@isaberg.nu">jan@isaberg.nu </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/renee.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="mt-0 mb-1">Renée Schultz</h5>
+                                <p>Administratör och innesäljare, som gärna tar en tur på motorcykeln eller skidorna. Aldrig
+                                    svarslös.
+                                </p>
+                                <p>0370 33 63 10</p>
+                                <a href="mailto:renee@isaberg.nu">renee@isaberg.nu </a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/dogs.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="mt-0 mb-1">Sibel & Alf</h5>
+                                <p>De här fyrbenta medarbetarna svarar inte på e-post eller telefon.</p>
+                                <p>De sprider däremot väldigt mycken glädje, är förträffliga vakthundar och är mycket behjälpliga
+                                    med pappersförstörning och andra liknande arbetsuppgifter.</p>
+                                <p>De ser också till att vi tvåbenta inte sitter stilla för länge och att vi får frisk luft
+                                    med jämna mellanrum.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address">
+                        <h2>Hitta Oss</h2>
+                        <div id="map" class="Gmap"></div>
+
+                        <div class="address-info">
+
+
+
+                            <div class="row address-div">
+                                <div class="col-12 col-sm-6">
+                                    <address>
+                                        <br>
+                                        <strong> Tveka inte att kontakta oss!</strong>
+                                        <br>Ring, mejla eller besök oss på:
+                                        <br> Isaberg Förlag AB
+                                        <br> Mogatan 26
+                                        <br> 33027 HESTRA
+                                        <br> Tel: 0370-33 63 10
+                                        <br>
+                                        <a href="mailto:info@isaberg.nu">info@isaberg.nu</a>
+                                        <br>
+                                    </address>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <address>
+                                        <br>
+                                        <strong>Öppettider:</strong>
+                                        <br>Månd - Torsd 07.30 - 16.00
+                                        <br>Fred 07.30 - 12.00
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-12 col-sm-12 col-lg-9 col-lorder-1 order-md-2 p-0">
+                <!--on the right of nav-->
+
+            </div>
+
+
+
+
+
+
+
+            <!-- finish row-->
+
+
+
+
+
+
+            <!-- Optional JavaScript -->
+            <script data-require="jquery" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/map.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+                crossorigin="anonymous"></script>
+
+        </div>
+    </main>
+    <footer>
+        <p>Isaberg Förlag AB | Mogatan 26 | 33027 HESTRA | 0370-336310</p>
+    </footer>
+</body>
+
+</html>
