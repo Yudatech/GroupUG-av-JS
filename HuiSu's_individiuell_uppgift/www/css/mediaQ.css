@@ -1,0 +1,240 @@
+@media only screen and (max-width: 576px) {
+  header {
+    /*-------shopping cart btn-------*/
+  }
+  header .shopping-cart {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 20px;
+  }
+  main.index {
+    margin: auto;
+  }
+  main.index .rek-media {
+    display: none;
+  }
+  main.index .rek-card {
+    margin: 0 auto;
+  }
+  main.index .nav-right .rek-card .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+  main.index .nav-right .book-list .card {
+    margin-bottom: 20px;
+  }
+  main.index .nav-right .book-list .card .card-body {
+    padding: 10px;
+    position: absolute;
+    width: 40%;
+    right: 5px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-title {
+    font-size: 14px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-text {
+    height: 90px;
+  }
+  main.index .nav-right .book-list .card .card-body .card-text p {
+    margin-bottom: 15px;
+  }
+  main.index .nav-right .book-list .card a.btn.btn-success {
+    font-size: 12px;
+    right: 10px;
+    position: absolute;
+  }
+  main.index .nav-right .book-list .card .card-img-top img {
+    margin: auto;
+    width: 60%;
+    max-height: 200px;
+    max-width: 155px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+  .rek-card {
+    display: none;
+  }
+  .rek-media {
+    display: block;
+  }
+  .card-img-top img {
+    padding-top: 10px;
+    max-width: 150px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .shopping-cart {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .nav-right {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .nav-right .book-list .card {
+    width: 33%;
+    height: 560px;
+  }
+  .nav-right .book-list .card .card-img-top img {
+    padding-top: 10px;
+    height: 287px;
+  }
+  .nav-right .book-list .card .card-body .card-title {
+    height: 55px;
+  }
+  .nav-right .book-list .card .card-body .card-text {
+    height: 130px;
+  }
+  .nav-right .book-list .card .card-body a.btn.btn-success {
+    position: absolute;
+    right: 40px;
+  }
+}
+/* side nav */
+@media only screen and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .side {
+    background-color: #f8f9fa ! important;
+  }
+  ul {
+    padding-bottom: 30px;
+  }
+  ul a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  ul a:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  ul li.list-group-item {
+    background-color: #f8f9fa ! important;
+  }
+  ul .dropdown-item {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  ul .nav-title {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    display: none;
+  }
+  .sidebar-offcanvas.active {
+    display: block;
+  }
+  .sidebar-offcanvas {
+    background-color: #f8f9fa;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 123455;
+  }
+  .btn-lg-display {
+    display: inline-block;
+  }
+  footer {
+    padding: 30px 15px 0 15px;
+  }
+}
+/*------pad and computer------*/
+/*--position: the right side of the side nav. --*/
+@media only screen and (min-width: 768px) {
+  main.index .book-carousel {
+    margin-top: 40px;
+  }
+  main.index .rek-card {
+    display: none;
+  }
+}
+/*----------desktop------------*/
+@media only screen and (min-width: 992px) {
+  body header .shopping-cart {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  body header .logo {
+    margin: 0px;
+  }
+  body header .btn-lg-display {
+    display: none;
+  }
+  body main .row {
+    margin-right: -4.5px;
+    margin-left: 0px;
+  }
+  body main .nav-title {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main .list-group {
+    margin-left: -15px;
+  }
+  body main .list-group .list-grop-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  body main .nav-right .rek-media {
+    margin-top: 25px;
+  }
+  body main .nav-right .book-list .card {
+    margin-top: 10px;
+  }
+  body main .nav-right .book-list .card .card-img-top img {
+    height: 250px;
+    margin: 10px auto;
+  }
+  body main .nav-right .book-list .card .card-body {
+    font-size: 12px;
+  }
+  body main .nav-right .book-list .card .card-body .card-title {
+    font-size: 14px;
+  }
+  body .side {
+    background-color: #95a0a9;
+    color: #f8f9fa;
+  }
+  body .col-sm-push-3 {
+    padding-left: 30px;
+  }
+  body .col-sm-push-3 .card .card-img-top {
+    padding: 5px 5px 0px 5px;
+  }
+  body .col-sm-push-3 .card .card-body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  body .col-sm-push-3 .bot {
+    margin-left: -30px;
+    padding-right: 30px;
+  }
+  body .col-sm-push-3 .bot hr {
+    color: #95a0a9;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  body .col-sm-push-3 .bot .rek {
+    width: 100%;
+  }
+  body footer {
+    margin: 30px 15px;
+  }
+}

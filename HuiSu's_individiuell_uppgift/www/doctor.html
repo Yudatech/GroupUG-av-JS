@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Extra infor added into <head> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- shopping cart -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--nav font-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- CSS for main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Isaberg Förlag AB</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="shopping-cart">
+                <button class=" btn btn-success">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <h1 class="row logo p-3 mb-0">Isaberg förlag</h1>
+
+        <!-- beginning of navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0">
+            <a class="navbar-brand active" href="index.html">Startsida</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Om Isaberg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobba med oss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">F&#246;rfattare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manuskript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Press</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">S&#246;k</button>
+                </form>
+
+                <div class="btn-lg-display">
+                    <button class="btn btn-success offcanvas">
+                        <span class="show-hide-btn ">Visa Undermenyn</span>
+                        <span class="show-hide-btn hide">Dölj Undermenyn</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--main container  -->
+    <main class="doctor">
+        <div class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left">
+
+                <!--left part, nav -->
+                <div class="col-12 col-lg-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div class="sidebar-nav">
+                        <ul class="nav flex-sm-column flex-column row d-flex align-content-start list-group">
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">HYHETER</a>
+                            </li>
+
+                            <li id="accordion">
+                                <div class="card ">
+                                    <div class="card-header navv" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Musik
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse navv" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Kring Musiken</a>
+                                            <a class="dropdown-item" href="#">Sångböcker</a>
+                                            <a class="dropdown-item" href="#">Sång och lek</a>
+                                            <a class="dropdown-item" href="#">CD</a>
+                                            <a class="dropdown-item" href="#">Kör / Musikal</a>
+                                            <a class="dropdown-item" href="#">Musikteori</a>
+                                            <a class="dropdown-item" href="#">Folkmusik</a>
+                                            <a class="dropdown-item" href="#">Suzuki</a>
+                                            <a class="dropdown-item" href="#">Musiktillbehör</a>
+                                            <div>
+                                                <div class="card-header navv" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed navv" data-toggle="collapse" data-parent="#accordion0" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Spelböker
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse navv" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-block">
+                                                        <a class="dropdown-item" href="#">Blockflöjt</a>
+                                                        <a class="dropdown-item" href="#">Gitarr</a>
+                                                        <a class="dropdown-item" href="#">Klaviatur</a>
+                                                        <a class="dropdown-item" href="#">Slagverk</a>
+                                                        <a class="dropdown-item" href="#">Stråk</a>
+                                                        <a class="dropdown-item" href="#">Träblås</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion2">
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading2">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                Instrument, rytminstrument
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse2" class="collapse navv" role="tabpanel" aria-labelledby="heading2">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Block, claves, kastanjetter</a>
+                                            <a class="dropdown-item" href="#">Blockfl&#246;jter, kazoo</a>
+                                            <a class="dropdown-item" href="#">Bj&#228;llror</a>
+                                            <a class="dropdown-item" href="#">Bongos, congas, djembes</a>
+                                            <a class="dropdown-item" href="#">Boomwhackers</a>
+                                            <a class="dropdown-item" href="#">Gitarrer</a>
+                                            <a class="dropdown-item" href="#">Klockspel, tonboxar, xylofoner</a>
+                                            <a class="dropdown-item" href="#">Klubbor</a>
+                                            <a class="dropdown-item" href="#">Maraccas, shakers</a>
+                                            <a class="dropdown-item" href="#">Ramtrummor, tamburiner</a>
+                                            <a class="dropdown-item" href="#">Rytmsatser</a>
+                                            <a class="dropdown-item" href="#">&#214;vriga instrument</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item navv">
+                                <a href="#">Svenska / Svenska som andraspr&#229;k</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">Engelska</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">NO / SO</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">S&#228;rskola</a>
+                            </li>
+                            <li id="accordion3">
+                                <div class="card navv">
+                                    <div class="card-header navv" id="heading3">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Facklitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse3" class="collapse navv" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Caféserien</a>
+                                            <a class="dropdown-item" href="#">Mat & Dryck</a>
+                                            <a class="dropdown-item" href="#">Motion/ Hälsa</a>
+                                            <a class="dropdown-item" href="#">Medicin</a>
+                                            <a class="dropdown-item" href="#">Hobbies</a>
+                                            <a class="dropdown-item" href="#">Sport</a>
+                                            <a class="dropdown-item" href="#">Reportage</a>
+                                            <a class="dropdown-item" href="#">lite av varje</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion4">
+                                <div class="card">
+                                    <div class="card-header navv" id="heading4">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4" aria-expanded="true">
+                                                Skönlitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse4" class="collapse navv" role="tabpanel" aria-labelledby="heading4">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Romaner</a>
+                                            <a class="dropdown-item" href="#">Deckare/Spänning</a>
+                                            <a class="dropdown-item" href="#">Humor</a>
+                                            <a class="dropdown-item" href="#">Kåserier</a>
+                                            <a class="dropdown-item" href="#">Biografler</a>
+                                            <a class="dropdown-item" href="#">Pocket</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion5">
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading6">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion5" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                                Barn o ungdom
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse5" class="collapse navv" role="tabpanel">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">0-5 år</a>
+                                            <a class="dropdown-item" href="#">5-9 år</a>
+                                            <a class="dropdown-item" href="#">9-12 år</a>
+                                            <a class="dropdown-item" href="#">Ungdom</a>
+                                            <a class="dropdown-item" href="#">Lättläst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">Tryck din bok hos oss</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--on the right of nav-->
+                <div class="col-12 col-sm-12 col-lg-9 nav-right">
+
+                    <h2>Doktor utan skyddsnät</h2>
+                    <div class="row img-pris">
+
+                        <div class="book-img col-12 col-sm-5 col-lg-6">
+                            <img src="img/600.jpeg" alt="doctor">
+                        </div>
+
+                        <div class="book-tx col-12 col-sm-7 col-lg-6">
+                            <p class="brf">"Doktor utan skyddsnät" är berättelsen om hur det är att vara doktor på landet.</p>
+                            <h2 class="pris">199,00 SEK</h2>
+                            <div class="row btn-form">
+                                <div class="col-4 col-sm-4 form-group">
+                                    <label for="exampleFormControlSelect1">Antal:</label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                                <div class="col-8 col-sm-8 put-into-sc">
+                                    <button class=" btn btn-success">
+                                        Lägg i varukorg
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row social-btn">
+                                <a class="btn btn-social-icon btn-facebook">
+                                    <span class="fa fa-facebook"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-twitter">
+                                    <span class="fa fa-twitter"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-google">
+                                    <span class="fa fa-google"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-instagram">
+                                    <span class="fa fa-instagram"></span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" book-info">
+
+                        <div class="nav-with-info">
+                            <div >
+                                <div class="card">
+                                    <div class="card-header" id="heading7">
+
+                                        <a data-toggle="collapse" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                            Beskrivning av artikel:
+                                        </a>
+
+                                    </div>
+
+                                    <div id="collapse7" class="collapse show" role="tabpanel" aria-labelledby="heading7" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>
+                                                Per Malms bok är en öppenhjärtig och självutlämnande berättelse om hans nästan femtio år som doktor – många gånger utan skyddsnät.
+                                                Liksom i alla självbiografier finns emotionella kapitel och personporträtt,
+                                                ibland komiska, ibland tragiska men nästan alltid med en medkännande och
+                                                humoristisk underton.
+                                            </p>
+                                            <p>
+                                                Boken är samtidigt en resa i tiden genom sjukvårds-Sverige där mycket som var bra försvann – som barnet med badvattnet –
+                                                när ekonomiska orättvisor skulle rättas till.
+                                            </p>
+                                            <p>
+                                                Författaren har synpunkter på orsakerna till dagens sjukvårdskris men också förslag på lösningar, förslag som kanske inte
+                                                alltid kommer att tas väl emot vare sig av landstingspolitiker – oavsett
+                                                parti – eller av rikspolitiker på vänsterkanten. Inte heller fackförbunden
+                                                inom sjukvården lär applådera förslagen.
+                                            </p>
+                                            <p>
+                                                Doktor utan skyddsnät är Per Malms andra bok. Den första, Mina patientfall eller Berättelser från en sjukstuga, var från
+                                                början tänkt som ett läromedel och en kunskapsbank för läkare/läkarstuderande,
+                                                men hittade också en bred allmän publik.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading8">
+
+                                        <a class="collapsed" data-toggle="collapse" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            Recensenterna var positiva:
+                                        </a>
+
+                                    </div>
+                                    <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>”… Från sin långa praktik beskriver han ett stort antal patientfall som han mött
+                                                på sin mottagning ... alla mycket läsvärda ... Sammanfattningsvis är detta
+                                                en mycket välskriven bok som varmt rekommenderas till en bred läsekrets.”
+                                            </p>
+                                            <p class="name_positive">– BTJ-häftet nr 2, 2017. Lektör Lars Svensson.</p>
+                                            <p>Boken har också uppmärksammats internationellt. I Danmarks Dagens Medicin beskrivs
+                                                Per Malm som Sveriges svar på Doktor House.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="heading9">
+
+                                        <a class="collapsed" data-toggle="collapse" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            Produktinfo:
+                                        </a>
+
+                                    </div>
+                                    <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <table class="table table-sm">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Författare</td>
+                                                        <td>Per Malm</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Bindning</td>
+                                                        <td>Inbunden</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Förlag</td>
+                                                        <td>Isaberg förlag</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Utg. land</td>
+                                                        <td>Sverige</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Utg. år</td>
+                                                        <td>2017</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>ISBN</td>
+                                                        <td>978-91-7694-966-5</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Språk</td>
+                                                        <td>Svenska</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Format</td>
+                                                        <td>170 x 240</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ant. sidor</td>
+                                                        <td>152</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="recommend">
+
+                        <h6>Se även</h6>
+                        <div class="card">
+                            <img class="card-img-top" src="img/nina.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <p>
+                                    <a href="#" class="text-success">Mina patientfall</a>
+                                </p>
+                                <div>
+                                    <a href="#" class="btn btn-secondary">Visa</a>
+                                    <a href="#" class="btn btn-success">Köp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </main>
+    <footer>
+        <p>Isaberg Förlag AB | Mogatan 26 | 33027 HESTRA | 0370-336310</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script data-require="jquery" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

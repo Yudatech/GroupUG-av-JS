@@ -1,0 +1,58 @@
+@import "variable";
+
+
+.media-contact{
+    .media-body{
+        padding-top:10px;
+    }
+}
+
+@media @xs{
+    .media-contact{
+        display:none;
+    }
+    .cards-contact{
+        display:block;
+        .card{
+            width:18rem;
+            margin:auto;
+        }
+    }
+    .address-info{
+        padding-left:20px;
+    }
+    .Gmap{
+        width:90vw;
+        height:300px;;
+        background:yellow;
+    }
+}
+
+@media @md{
+    .cards-contact{
+        display:none;
+    }
+}
+@media @big{
+    .media-cotact{
+        display:block;
+    }
+    .cards-contact{
+        display:none;
+    }
+    .Gmap{
+        width:90vw;
+        height:400px;
+        background:yellow;
+    }
+
+}
+
+@media @desktop{
+    .Gmap{
+        width:100%;
+        height:400px;
+        background:yellow;
+    }
+}
+

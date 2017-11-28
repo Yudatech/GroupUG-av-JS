@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Extra infor added into <head> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- shopping cart -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--nav font-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+    <!-- CSS for main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Startside-Isaberg Förlag AB</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="shopping-cart">
+                <button class=" btn btn-success">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <h1 class="row logo p-3 mb-0">Isaberg förlag</h1>
+
+        <!-- beginning of navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-0">
+            <a class="navbar-brand active" href="index.html">Startsida</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Om Isaberg</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobba med oss</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">F&#246;rfattare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manuskript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Press</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">S&#246;k</button>
+                </form>
+
+                <div class="btn-lg-display">
+                    <button class="btn btn-success offcanvas">
+                        <span class="show-hide-btn ">Visa Undermenyn</span>
+                        <span class="show-hide-btn hide">Dölj Undermenyn</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--main container  -->
+    <main class="index">
+        <div class="container-fluid">
+            <div class="row row-offcanvas row-offcanvas-left">
+
+                <!--left part, nav -->
+                <div class="col-12 col-lg-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                    <div class="sidebar-nav">
+                        <ul class="nav flex-sm-column flex-column row d-flex align-content-start list-group">
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">HYHETER</a>
+                            </li>
+                            
+                            <li id="accordion">
+                                <div class="card ">
+                                    <div class="card-header navv" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Musik
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse navv" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Kring Musiken</a>
+                                            <a class="dropdown-item" href="#">Sångböcker</a>
+                                            <a class="dropdown-item" href="#">Sång och lek</a>
+                                            <a class="dropdown-item" href="#">CD</a>
+                                            <a class="dropdown-item" href="#">Kör / Musikal</a>
+                                            <a class="dropdown-item" href="#">Musikteori</a>
+                                            <a class="dropdown-item" href="#">Folkmusik</a>
+                                            <a class="dropdown-item" href="#">Suzuki</a>
+                                            <a class="dropdown-item" href="#">Musiktillbehör</a>
+                                            <div>
+                                                <div class="card-header navv" id="headingTwo">
+                                                    <h5 class="mb-0">
+                                                        <a class="collapsed navv" data-toggle="collapse" data-parent="#accordion0" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                            Spelböker
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse navv" role="tabpanel" aria-labelledby="headingTwo">
+                                                    <div class="card-block">
+                                                        <a class="dropdown-item" href="#">Blockflöjt</a>
+                                                        <a class="dropdown-item" href="#">Gitarr</a>
+                                                        <a class="dropdown-item" href="#">Klaviatur</a>
+                                                        <a class="dropdown-item" href="#">Slagverk</a>
+                                                        <a class="dropdown-item" href="#">Stråk</a>
+                                                        <a class="dropdown-item" href="#">Träblås</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion2">
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading2">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                                Instrument, rytminstrument
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse2" class="collapse navv" role="tabpanel" aria-labelledby="heading2">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Block, claves, kastanjetter</a>
+                                            <a class="dropdown-item" href="#">Blockfl&#246;jter, kazoo</a>
+                                            <a class="dropdown-item" href="#">Bj&#228;llror</a>
+                                            <a class="dropdown-item" href="#">Bongos, congas, djembes</a>
+                                            <a class="dropdown-item" href="#">Boomwhackers</a>
+                                            <a class="dropdown-item" href="#">Gitarrer</a>
+                                            <a class="dropdown-item" href="#">Klockspel, tonboxar, xylofoner</a>
+                                            <a class="dropdown-item" href="#">Klubbor</a>
+                                            <a class="dropdown-item" href="#">Maraccas, shakers</a>
+                                            <a class="dropdown-item" href="#">Ramtrummor, tamburiner</a>
+                                            <a class="dropdown-item" href="#">Rytmsatser</a>
+                                            <a class="dropdown-item" href="#">&#214;vriga instrument</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item navv">
+                                <a href="#">Svenska / Svenska som andraspr&#229;k</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">Engelska</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">NO / SO</a>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#">S&#228;rskola</a>
+                            </li>
+                            <li id="accordion3"  >
+                                <div class="card navv">
+                                    <div class="card-header navv" id="heading3">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Facklitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse3" class="collapse navv" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Caféserien</a>
+                                            <a class="dropdown-item" href="#">Mat & Dryck</a>
+                                            <a class="dropdown-item" href="#">Motion/ Hälsa</a>
+                                            <a class="dropdown-item" href="#">Medicin</a>
+                                            <a class="dropdown-item" href="#">Hobbies</a>
+                                            <a class="dropdown-item" href="#">Sport</a>
+                                            <a class="dropdown-item" href="#">Reportage</a>
+                                            <a class="dropdown-item" href="#">lite av varje</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion4" >
+                                <div class="card">
+                                    <div class="card-header navv" id="heading4">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4" aria-expanded="true" >
+                                                Skönlitteratur
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse4" class="collapse navv" role="tabpanel" aria-labelledby="heading4">
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">Romaner</a>
+                                            <a class="dropdown-item" href="#">Deckare/Spänning</a>
+                                            <a class="dropdown-item" href="#">Humor</a>
+                                            <a class="dropdown-item" href="#">Kåserier</a>
+                                            <a class="dropdown-item" href="#">Biografler</a>
+                                            <a class="dropdown-item" href="#">Pocket</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="accordion5" >
+                                <div class="card ">
+                                    <div class="card-header navv" id="heading6">
+                                        <h5 class="mb-0">
+                                            <a data-toggle="collapse" data-parent="#accordion5" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                                Barn o ungdom
+                                            </a>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapse5" class="collapse navv" role="tabpanel" >
+                                        <div class="card-block">
+                                            <a class="dropdown-item " href="#">0-5 år</a>
+                                            <a class="dropdown-item" href="#">5-9 år</a>
+                                            <a class="dropdown-item" href="#">9-12 år</a>
+                                            <a class="dropdown-item" href="#">Ungdom</a>
+                                            <a class="dropdown-item" href="#">Lättläst</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item navv">
+                                <a href="#" class="nav-title navv">Tryck din bok hos oss</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--on the right of nav-->
+                <div class="col-12 col-lg-9 nav-right">
+                    <div class="row mid-right">
+                        <div class="col-12 col-lg-8">
+                            <div class=" rek-media">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h5 class="mt-0 mb-1">Du har väl inte missat ...</h5>
+                                        <p>
+                                            <strong>Ny film om boken och en ny mycket användbar app.</strong>
+                                        </p>
+                                        <p>Nu kan du se filmen om materialet ”
+                                            <span class="text-success">Man kan sjunga på många olika sätt</span>” av Lisa Medin.</p>
+                                        <p>Ett material främst för grundsärskola, träningsskola och SVA, men som passar lika
+                                            bra för alla som arbetar med barn.</p>
+                                        <p>Helt nytt är också att det finns en app med musiken (även med singback) från materialet
+                                            att ladda ner från appstore och Google Play.
+                                        </p>
+                                    </div>
+                                    <img class="ml-3" src="img/man.jpeg" alt="Generic placeholder image">
+                                </div>
+
+                            </div>
+                            <div class=" rek-card">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/man.jpeg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <div id="exampleAccordion" data-children=".item">
+                                            <div class="item">
+                                                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1"
+                                                    class="text-success">
+                                                    Du har väl inte missat ...
+                                                </a>
+                                                <div id="exampleAccordion1" class="collapse" role="tabpanel">
+                                                    <div class="mb-3">
+                                                        <p>
+                                                            <strong>Ny film om boken och en ny mycket användbar app.</strong>
+                                                        </p>
+                                                        <p>Nu kan du se filmen om materialet ”
+                                                            <span class="text-success">Man kan sjunga på många olika sätt</span>” av Lisa Medin.</p>
+                                                        <p>Ett material främst för grundsärskola, träningsskola och SVA, men
+                                                            som passar lika bra för alla som arbetar med barn.</p>
+                                                        <p>Helt nytt är också att det finns en app med musiken (även med singback)
+                                                            från materialet att ladda ner från appstore och Google Play.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row book-Carousel">
+                                <div class="col-12 col-sm-6">
+                                    <h5><a href="#" class="text-success">Nyheter Mat o Dryck</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="img/skane.jpeg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/apple.jpeg" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/vatten.jpeg" alt="Third slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <h5> <a href="#" class="text-success">Barn o Ungdom</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="img/goose.jpeg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/cat.jpeg" alt="Second slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row book-Carousel">
+                                <div class="col-12 col-sm-6">
+                                    <h5><a href="#" class="text-success">Nya läromedel</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="img/mansmall.jpeg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/kids.jpeg" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/color.jpeg" alt="Third slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <h5><a href="#" class="text-success">Fler nya böcker</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <a href="doctor.html"><img class="d-block w-100" src="img/doctorsmall.jpeg" alt="First slide"></a>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/woods.jpeg" alt="Second slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row book-Carousel">
+                                <div class="col-12 col-sm-6">
+                                    <h5><a href="#" class="text-success">Nya instrument</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="img/pens.jpeg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/music.jpeg" alt="Second slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <h5><a href="#" class="text-success">Kommande titlar</a></h5>
+                                    <div class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="img/boat.jpeg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/snow.jpeg" alt="Second slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/forg.jpeg" alt="Third slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="img/coc.jpeg" alt="Third slide">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row news-list">
+                                <table class="table table-sm ">
+                                    <thead>
+                                        <tr>
+                                            <th class="h5">
+                                                Kommande titlar
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Sånger året om</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Välkommen till fjällvär(l)den</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Ny barnbokserie</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Prosecco Cocktails</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Bortom nya horisonter</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Grottligan</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Bohuslänska gårdsbutiker & kaféer</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">Café Värmland</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div>
+                                <h5>Senast</h5>
+
+                                <div class="book-list">
+                                    <div class="row">
+                                        <div class="card col-12 col-sm-4 col-lg-12">
+                                            <div class="card-img-top">
+                                                <img src="img/600.jpeg" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">
+                                                    <a href="doctor.html" class="text-success">Doktor utan skyddsnät</a>
+                                                </h4>
+                                                <div class="card-text">
+
+                                                    <p>"Doktor utan skyddsnät" är berättelsen om hur det är att vara doktor
+                                                        på landet.
+                                                    </p>
+                                                </div>
+                                                <a href="doctor.html" class="btn btn-success">Visa</a>
+                                            </div>
+                                        </div>
+                                        <div class="card col-12 col-sm-4 col-lg-12">
+                                            <div class="card-img-top">
+                                                <img src="img/vatten-big.jpeg" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">
+                                                    <a href="doctor.html" class="text-success">VÄTTERN - möten, mat, </a>
+                                                </h4>
+                                                <div class="card-text">
+
+                                                    <p>Utkommer i maj 2017
+                                                    </p>
+                                                </div>
+                                                <a href="doctor.html" class="btn btn-success">Visa</a>
+                                            </div>
+                                        </div>
+                                        <div class="card col-12 col-sm-4 col-lg-12">
+                                            <div class="card-img-top">
+                                                <img src="img/cafe.jpeg" alt="Card image cap">
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">
+                                                    <a href="doctor.html" class="text-success">Café Halland</a>
+                                                </h4>
+                                                <div class="card-text">
+
+                                                    <p>Ny bok i prisbelönta caféserien</p>
+                                                </div>
+                                                <a href="doctor.html" class="btn btn-success">Visa</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Isaberg Förlag AB | Mogatan 26 | 33027 HESTRA | 0370-336310</p>
+    </footer>
+    <!-- Optional JavaScript -->
+
+    <script data-require="jquery" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

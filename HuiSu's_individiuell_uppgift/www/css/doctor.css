@@ -1,0 +1,175 @@
+body main.doctor .fa {
+  color: white;
+}
+body main.doctor .social-btn {
+  width: 80%;
+}
+body main.doctor .social-btn .btn-facebook {
+  background-color: #3B5998;
+  width: 40.86px;
+  margin-left: 16px;
+}
+body main.doctor .social-btn .btn-twitter {
+  background-color: #55ACEE;
+}
+body main.doctor .social-btn .btn-google {
+  background-color: #DD4B39;
+}
+body main.doctor .social-btn .btn-instagram {
+  background-color: #3F729B;
+}
+body main.doctor .nav-with-info {
+  background-color: #f8f9fa;
+}
+body main.doctor .nav-with-info a {
+  color: rgba(0, 0, 0, 0.5);
+}
+body main.doctor .name_positive {
+  text-align: right;
+}
+body main.doctor .recommend {
+  padding-bottom: 50px;
+}
+body main.doctor .recommend h6 {
+  color: #90181b;
+  margin-top: 20px;
+  font-size: 18px;
+}
+@media only screen and (min-width: 768px) {
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+    margin-top: 30px;
+  }
+  body main.doctor .nav-right .brf {
+    padding-top: 40px;
+  }
+  body main.doctor .nav-right .book-img {
+    padding-left: 30px;
+  }
+  body main.doctor .nav-right .book-img img {
+    width: 30vw;
+    max-height: 432.66px;
+    max-width: 307.19px;
+    margin: auto;
+  }
+  body main.doctor .nav-right .book-tx .btn-form .put-into-sc {
+    padding-top: 31px;
+  }
+  body main.doctor .nav-right .book-tx .btn-form .put-into-sc .btn-success {
+    font-size: 16px;
+  }
+  body main.doctor .nav-right .book-tx .social-btn .btn-social-icon {
+    margin-right: 10px;
+  }
+  body main.doctor .nav-with-info .nav-tabs {
+    padding-bottom: 0! important;
+  }
+  body main.doctor .nav-with-info .nav-tabs .nav-item {
+    font-size: 1.25rem;
+  }
+  body main.doctor .nav-with-info .nav-tabs .nav-item a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main.doctor .recommend .card {
+    width: 33%;
+  }
+  body main.doctor .recommend .card .card-body {
+    margin: auto;
+  }
+  body main.doctor .recommend .card .card-body .text-success {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  body main.doctor .book-list .book-tx {
+    padding-left: 30px;
+    padding-top: 80px;
+  }
+  body main.doctor .book-list .book-info {
+    font-size: 16px;
+  }
+  body main.doctor .brf {
+    font-size: 20px;
+  }
+  body main.doctor .nav-with-info {
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body main.doctor {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+    margin-top: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-img {
+    padding-left: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-img img {
+    width: 30vw;
+  }
+  body main.doctor .nav-right .img-pris .book-tx {
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .brf {
+    font-size: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .pris {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form {
+    width: 70%;
+  }
+  body main.doctor .nav-right .nav-with-info {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  body main.doctor .nav-right h2 {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .book-info .nav-with-info a {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  body main.doctor .nav-right .img-pris {
+    width: 100%;
+  }
+  body main.doctor .nav-right .img-pris .book-img img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .brf {
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .pris {
+    padding-left: 20px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form {
+    width: 100%;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form .form-group {
+    margin-bottom: 0;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .btn-form .put-into-sc {
+    padding-top: 33px;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .social-btn {
+    padding-top: 15px;
+    width: 80%;
+  }
+  body main.doctor .nav-right .img-pris .book-tx .social-btn .btn-social-icon {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  body main.doctor .nav-right .book-info .nav-with-info {
+    margin-top: 20px;
+  }
+}

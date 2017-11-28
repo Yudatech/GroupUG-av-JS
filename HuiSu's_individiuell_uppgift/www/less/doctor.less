@@ -1,0 +1,232 @@
+@import "variable";
+
+body{
+    main.doctor{
+        .fa{
+            color:white;
+        }
+        .social-btn{
+            width:80%;
+            .btn-facebook{
+                background-color: #3B5998; 
+                width:40.86px;   
+                margin-left:16px;         
+            }
+            .btn-twitter{
+            background-color: #55ACEE;
+            } 
+            .btn-google{
+                background-color: #DD4B39;                
+            } 
+            .btn-instagram{
+                background-color: #3F729B;                
+            }             
+        }
+        .nav-with-info{
+            background-color:@bg-sideNav;
+            
+                    a{
+                        color:@tx-sideNav;
+                  }
+                }
+        .name_positive{
+            text-align: right;
+        }
+        .recommend{
+            padding-bottom:50px;
+            h6{
+                color:@lt-red;
+                margin-top:20px;
+                font-size:18px;
+            }
+         }
+        }
+        }
+
+@media @big{
+body{
+    main.doctor{
+        .nav-right{
+            .img-pris{
+               width:100%;
+               margin-top:30px;
+            } 
+            .brf{
+                padding-top:40px;
+            }
+            .book-img{
+                padding-left:30px;
+                img{
+                    width:30vw;
+                    max-height: 432.66px;
+                    max-width: 307.19px;
+                    margin:auto;
+                }
+            }
+            .book-tx{
+                .btn-form{
+                    .put-into-sc{
+                        padding-top:31px;
+                        .btn-success{
+                        font-size:16px;
+                        }
+                    }
+                }
+                .social-btn{
+                    .btn-social-icon{
+                        margin-right:10px;
+                    }
+               }
+            }
+        }
+            .nav-with-info{
+                .nav-tabs{
+                    padding-bottom:0! important;
+                    .nav-item{
+                        font-size:1.25rem;
+                        a{
+                            color:@tx-sideNav;
+                        }
+                    }
+                    }
+                }
+            .recommend{
+                .card{
+                    width: 33%;
+                    .card-body{
+                        margin:auto;
+                        .text-success{
+                            font-size:18px;
+                            
+                        }
+                    }
+                }  
+            }
+        }
+        }
+    }
+
+@media @desktop{
+    body{
+        main.doctor{
+            .book-list{
+                .book-tx{
+                    padding-left:30px;
+                    padding-top:80px;
+                    
+                    } 
+                
+                .book-info{
+                    font-size:16px;
+                    
+                } 
+            }
+            .brf{
+                font-size:20px;
+            }
+            .nav-with-info{
+                margin-top:50px;
+            }
+            }
+        }
+    }
+
+@media @pad{
+    body{
+        main.doctor{
+            padding-left:20px;
+            .nav-right{
+                .img-pris{
+                   width:100%;
+                   margin-top:30px;
+                    .book-img{
+                        padding-left:30px;
+                        img{
+                            width:30vw;
+                        }
+                    }
+                .book-tx{
+                    padding-left:40px;
+                    padding-top:30px;
+                    .brf{
+                        font-size:20px;
+                    }
+                    .pris{
+                        padding-left:20px;
+                    }
+                   .btn-form{
+                       width:70%;
+                    }
+                 
+                    }
+                  }  
+                  .nav-with-info{
+                      margin-top:40px;
+                    } 
+            }
+            }
+        }
+    } 
+    @media @small{
+        body{
+            main.doctor{
+                .nav-right{
+                    h2{
+                        padding-left:20px;
+                    }
+                    .book-info{
+                        .nav-with-info{
+                            a{
+                                color:@tx-sideNav;
+                            }
+                        }
+                    }
+                    .img-pris{
+                       width:100%;
+                        .book-img{
+                            img{
+                                width:100%;
+                                padding:0 10px;
+                            }
+                        }
+                    .book-tx{
+                        padding-left:10px;
+                        padding-top:10px;
+                        .brf{
+                            padding-top:30px;
+                            padding-left:15px;
+                            font-size:18px;
+                        }
+                        .pris{
+                            padding-left:20px;
+                        }
+                       .btn-form{
+                           width:100%;
+                           .form-group {
+                            margin-bottom: 0;
+                        }
+                           .put-into-sc{
+                               padding-top:33px;
+                           }
+                        }
+                           .social-btn{
+                               padding-top:15px;
+                            width:80%;
+                           
+                                .btn-social-icon{
+                                    margin-right:5px;
+                                    font-size:12px;
+                                }
+                        }   
+                        }
+                      }   
+                    .book-info{
+                       .nav-with-info{
+                        margin-top:20px;
+                       }   
+                        }
+                    }        
+                }
+                }
+            }
+ 
